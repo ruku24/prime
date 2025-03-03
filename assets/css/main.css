@@ -55,7 +55,7 @@
   text-align: justify;
 }
 .customize_solution{
-  background: url('/assets/img/customer-bj.jpg');
+  background: url('../img/customer-bj.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
