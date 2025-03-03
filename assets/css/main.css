@@ -54,6 +54,26 @@
 .solution_d{
   text-align: justify;
 }
+.customize_solution{
+  background: url(../img/customer-bj.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* padding: 400px 0px; */
+  height: 350px;
+ 
+  
+
+}
+.customize_solution .content{
+  padding: 80px 0px;
+  z-index: 999;
+}
+.customize_solution .customize_btn{
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid #fff;
+}
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
