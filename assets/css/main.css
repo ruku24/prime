@@ -1303,6 +1303,8 @@ section,
   padding: 30px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
   transition: 0.3s;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
 }
 
 .services-2 .service-item .icon {
@@ -1315,7 +1317,7 @@ section,
 .services-2 .service-item .title {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .services-2 .service-item .title a {
@@ -1326,6 +1328,7 @@ section,
   line-height: 24px;
   font-size: 14px;
   margin: 0;
+  text-align: justify;
 }
 
 .services-2 .service-item:hover {
