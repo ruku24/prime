@@ -46,7 +46,31 @@
 :root {
   scroll-behavior: smooth;
 }
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+}
 
+.whatsapp-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.1);
+}
+
+.team_content p{
+  text-align: justify;
+}
+.mission_content p{
+  text-align: justify;
+}
 
 .about_p1{
   text-align: justify;
@@ -917,10 +941,11 @@ section,
 .section-title p {
   color: var(--heading-color);
   margin: 0;
-  font-size: 36px;
+  font-size: 20px;
   font-weight: 800;
   text-transform: uppercase;
   font-family: var(--heading-font);
+  margin-top: 10px;
 }
 
 @media (max-width: 768px) {
