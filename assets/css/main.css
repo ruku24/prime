@@ -1206,18 +1206,20 @@ section,
 }
 
 .clients .client-logo {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   overflow: hidden;
 }
 
 .clients .client-logo img {
-  padding: 20px 40px;
-  max-width: 90%;
+  padding: 20px 35px;
+  max-width: 100%;
+
   transition: 0.3s;
-  opacity: 0.5;
-  filter: grayscale(100);
+
+  /* opacity: 0.5; */
+  /* filter: grayscale(100); */
 }
 
 .clients .client-logo img:hover {
