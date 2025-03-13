@@ -883,6 +883,7 @@ h6 {
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
 .page-title {
+  background-image: url(/assets/img/slider/allpagebg.jpg);
   color: var(--default-color);
   background-color: var(--background-color);
   background-size: cover;
