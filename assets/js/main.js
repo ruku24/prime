@@ -1,10 +1,22 @@
-/**
-* Template Name: Dewi
-* Template URL: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
+document.addEventListener("DOMContentLoaded",function(){
+
+  let menubar = document.querySelector(".navmenu");
+  window.addEventListener("scroll",function(){
+
+      if(window.scrollY > menubar.offsetHeight){
+          menubar.classList.add("sticky"); 
+
+          
+      }else{
+          menubar.classList.remove("sticky");
+      }
+  });
+
+});
+
+
+
 
 (function() {
   "use strict";
