@@ -1,22 +1,4 @@
 
-document.addEventListener("DOMContentLoaded",function(){
-
-  let menubar = document.querySelector(".navmenu");
-  window.addEventListener("scroll",function(){
-
-      if(window.scrollY > menubar.offsetHeight){
-          menubar.classList.add("sticky"); 
-
-          
-      }else{
-          menubar.classList.remove("sticky");
-      }
-  });
-
-});
-
-
-
 
 (function() {
   "use strict";
@@ -120,23 +102,6 @@ document.addEventListener("DOMContentLoaded",function(){
   const glightbox = GLightbox({
     selector: '.glightbox'
   });
-  // Hero Header carousel
-  $(".header-carousel").owlCarousel({
-    animateOut: 'fadeOut',
-    items: 1,
-    margin: 0,
-    stagePadding: 0,
-    autoplay: true,
-    smartSpeed: 500,
-    dots: true,
-    loop: true,
-    nav : true,
-    navText : [
-        '<i class="bi bi-arrow-left"></i>',
-        '<i class="bi bi-arrow-right"></i>'
-    ],
-});
-
 
   /**
    * Initiate Pure Counter
@@ -236,5 +201,3 @@ document.addEventListener("DOMContentLoaded",function(){
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
-
-
